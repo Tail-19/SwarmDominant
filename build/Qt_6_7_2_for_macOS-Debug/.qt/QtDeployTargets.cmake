@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SwarmDominant_FILE /Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant.app/Contents/MacOS/SwarmDominant)
+set(__QT_DEPLOY_TARGET_SwarmDominant_TYPE EXECUTABLE)
