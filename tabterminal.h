@@ -2,6 +2,8 @@
 #define TABTERMINAL_H
 
 #include <QWidget>
+#include <QPointer>
+#include <QProcess>
 
 namespace Ui {
 class TabTerminal;
@@ -15,8 +17,24 @@ public:
     explicit TabTerminal(QWidget *parent = nullptr);
     ~TabTerminal();
 
+    void setUser(QString username="Linux");
+    void setHost(QString hostname="Ubuntu22.04");
+    QString getUser();
+    QString getHost();
+
+private slots:
+    void readBashStandardOutput();
+    void readBashStandardError();
+
+    void on_tabLineEdit_returnPressed();
+
 private:
+    QString user;
+    QString host;
+    QString start_line;
+
     Ui::TabTerminal *ui;
+    QProcess *tab_process;
 };
 
 #endif // TABTERMINAL_H
