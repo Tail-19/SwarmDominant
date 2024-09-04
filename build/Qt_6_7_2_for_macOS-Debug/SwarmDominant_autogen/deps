@@ -102,6 +102,7 @@ SwarmDominant_autogen/timestamp: \
 	/Users/zhenghanlu/Development/SwarmDominant/main.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/mainwindow.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/mainwindow.h \
+	/Users/zhenghanlu/Development/SwarmDominant/tabterminal.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/tabterminal.h \
 	/Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QPointer \
 	/Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
@@ -470,4 +471,5 @@ SwarmDominant_autogen/timestamp: \
 	/Users/zhenghanlu/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin.cmake \
 	/Users/zhenghanlu/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/Users/zhenghanlu/Development/SwarmDominant/mainwindow.ui \
+	/Users/zhenghanlu/Development/SwarmDominant/tabterminal.ui \
 	/Users/zhenghanlu/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

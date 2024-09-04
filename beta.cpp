@@ -15,7 +15,10 @@ void MainWindow::beta_readBashStandardError() {
 
 void MainWindow::on_betaAdd_pushButton_clicked()
 {
-    TabTerminal *_new_tab = new TabTerminal();
+    TabTerminal *_tab_ptr;
+    TabTerminal _new_tab(new QWidget, "beta", "beta-sr");
+    _tab_ptr = &_new_tab;
 
-    ui->beta_tabWidget->addTab(_new_tab, QString("name"));
+    QString _name = &"beta" [ ui->beta_tabWidget->count()];
+    ui->beta_tabWidget->addTab(_tab_ptr, _name);
 }

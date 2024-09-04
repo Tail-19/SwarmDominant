@@ -14,7 +14,8 @@ class TabTerminal : public QWidget
     Q_OBJECT
 
 public:
-    explicit TabTerminal(QWidget *parent = nullptr);
+    explicit TabTerminal(QWidget *parent = nullptr
+                        , QString username = "Ubuntu22.04", QString hostname = "Linux");
     ~TabTerminal();
 
     void setUser(QString username="Linux");
