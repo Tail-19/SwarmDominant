@@ -22,19 +22,20 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(gamma_process, SIGNAL(readyReadStandardOutput()), this, SLOT(gamma_readBashStandardOutput()));
     connect(gamma_process, SIGNAL(readyReadStandardError()), this, SLOT(gamma_readBashStandardError()));
-
-
 }
 
 MainWindow::~MainWindow() {
     delete ui;
+    delete beta_process;
+    delete gamma_process;
 }
 
 void MainWindow::on_lineEdit_returnPressed() {
     QString _str = ui->lineEdit->text();
-
-    ui->betaTerminal->append("beta@beta-sr:~$ " + _str);
-    beta_process->write(ui->lineEdit->text().toLocal8Bit() + '\n');
+    if (ui->beta_checkBox->isChecked()) {
+        ui->betaTerminal->append("beta@beta-sr:~$ " + _str);
+        beta_process->write(ui->lineEdit->text().toLocal8Bit() + '\n');
+    }
     ui->gammaTerminal->append("gamma@gamma-sr:~$ " + _str);
     gamma_process->write(ui->lineEdit->text().toLocal8Bit() + '\n');
 

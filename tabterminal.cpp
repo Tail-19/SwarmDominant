@@ -20,7 +20,9 @@ TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     connect(tab_process, SIGNAL(readyReadStandardOutput()), this, SLOT(readBashStandardOutput()));
     connect(tab_process, SIGNAL(readyReadStandardError()), this, SLOT(readBashStandardError()));
 
-    tab_process->write(QString("ssh -tt " + username + "@" + hostname).toLocal8Bit());
+    QString _ssh = "ssh -tt " + username + "@" + hostname + "\n";
+    tab_process->write(_ssh.toLocal8Bit());
+    ui->tabBrowser->append(start_line + _ssh);
 }
 
 void TabTerminal::readBashStandardOutput() {
