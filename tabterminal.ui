@@ -6,31 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>342</width>
-    <height>480</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>341</width>
-     <height>481</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QTextBrowser" name="tabBrowser"/>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="tabLineEdit"/>
-    </item>
-   </layout>
-  </widget>
  </widget>
  <resources/>
  <connections/>

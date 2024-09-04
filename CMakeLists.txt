@@ -31,7 +31,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         beta.cpp
         agents/alpha.cpp
         agents/agent.h agents/agent.cpp
-        tabterminal.cpp
+        tabterminal.h tabterminal.cpp tabterminal.ui
+
 
     )
 # Define target properties for Android with Qt 6 as:

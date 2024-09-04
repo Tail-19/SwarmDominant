@@ -335,8 +335,7 @@
 				8,
 				9,
 				10,
-				12,
-				13
+				12
 			]
 		}
 	],
@@ -456,8 +455,7 @@
 				8,
 				9,
 				10,
-				12,
-				13
+				12
 			]
 		},
 		{
@@ -467,8 +465,8 @@
 				3,
 				6,
 				11,
-				14,
-				15
+				13,
+				14
 			]
 		},
 		{
@@ -478,14 +476,14 @@
 				4,
 				5,
 				7,
-				16
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				17
+				16
 			]
 		}
 	],
@@ -562,12 +560,6 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "agents/agent.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "tabterminal.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
