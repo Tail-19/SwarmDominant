@@ -29,6 +29,8 @@ private slots:
     void gamma_readBashStandardError();
     void on_betaAdd_pushButton_clicked();
 
+    void on_betaRemove_pushButton_clicked();
+
 private:
     Ui::SwarmDominantWindow *ui;
     QPointer<QProcess> beta_process, gamma_process;

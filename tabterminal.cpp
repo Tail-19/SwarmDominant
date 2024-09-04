@@ -1,5 +1,7 @@
 #include "tabterminal.h"
 #include "ui_tabterminal.h"
+#include <QProcess>
+#include <QPointer>
 
 TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     : QWidget(parent)
@@ -10,6 +12,7 @@ TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     start_line = username + "@" + hostname + ":~$ ";
 
     ui->setupUi(this);
+
     tab_process = new QProcess;
     tab_process->start("bash");
     tab_process->waitForStarted();
@@ -59,4 +62,5 @@ QString TabTerminal::getUser() {
 TabTerminal::~TabTerminal()
 {
     delete ui;
+    delete tab_process;
 }

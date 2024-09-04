@@ -14,8 +14,7 @@ void MainWindow::beta_readBashStandardError() {
     if(!_beta_out.isEmpty())   ui->betaTerminal->append(QString::fromLocal8Bit(_beta_out));
 }
 
-void MainWindow::on_betaAdd_pushButton_clicked()
-{
+void MainWindow::on_betaAdd_pushButton_clicked() {
     QWidget *_new_page = new QWidget();
 
     QHBoxLayout *horizontalLayout = new QHBoxLayout(_new_page);//新建布局
@@ -28,4 +27,8 @@ void MainWindow::on_betaAdd_pushButton_clicked()
 
     QString _name = "beta" + QString::number(ui->beta_tabWidget->count());
     ui->beta_tabWidget->addTab(_new_page, _name);
+}
+
+void MainWindow::on_betaRemove_pushButton_clicked() {
+    ui->beta_tabWidget->removeTab(ui->beta_tabWidget->currentIndex());
 }

@@ -63,3 +63,6 @@ void MainWindow::on_connectButton_clicked() {
     ui->connectButton->setText("Connect");
     return;
 }
+
+
+
