@@ -77,7 +77,6 @@ set(OLD_GLOB
   "/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/include/ui_tabterminal.h"
   "/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/moc_predefs.h"
   "/Users/zhenghanlu/Development/SwarmDominant/mainwindow.h"
-  "/Users/zhenghanlu/Development/SwarmDominant/tabterminal-rf.h"
   "/Users/zhenghanlu/Development/SwarmDominant/tabterminal.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -179,7 +178,6 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/zhenghanlu/Development/SwarmDominant/*.ui")
 set(OLD_GLOB
   "/Users/zhenghanlu/Development/SwarmDominant/mainwindow.ui"
-  "/Users/zhenghanlu/Development/SwarmDominant/tabterminal-rf.ui"
   "/Users/zhenghanlu/Development/SwarmDominant/tabterminal.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
