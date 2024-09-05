@@ -913,6 +913,9 @@ CMakeFiles/SwarmDominant.dir/main.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/QStandardItemModel \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QProcess \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qprocess.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \

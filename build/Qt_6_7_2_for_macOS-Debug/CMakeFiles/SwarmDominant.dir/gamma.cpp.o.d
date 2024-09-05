@@ -913,6 +913,9 @@ CMakeFiles/SwarmDominant.dir/gamma.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/QStandardItemModel \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QProcess \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qprocess.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/include/ui_mainwindow.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QApplication \
@@ -941,7 +944,6 @@ CMakeFiles/SwarmDominant.dir/gamma.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qpicture.h \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QLineEdit \
@@ -959,5 +961,4 @@ CMakeFiles/SwarmDominant.dir/gamma.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QProcess \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qprocess.h
+  /Users/zhenghanlu/Development/SwarmDominant/tabterminal.h

@@ -91,6 +91,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QPointer \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -136,6 +137,7 @@
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -160,6 +162,7 @@
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qpointer.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocess.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \

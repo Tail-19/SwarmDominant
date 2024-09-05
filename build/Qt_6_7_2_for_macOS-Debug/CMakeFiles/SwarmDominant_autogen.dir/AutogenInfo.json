@@ -303,12 +303,6 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/zhenghanlu/Development/SwarmDominant/agents/agent.h",
-			"MU",
-			"KSTBDX3RL2/moc_agent.cpp",
-			null
-		],
-		[
 			"/Users/zhenghanlu/Development/SwarmDominant/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -378,17 +372,10 @@
 	"SETTINGS_FILE" : "/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/SwarmDominant_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/Users/zhenghanlu/Development/SwarmDominant/agents/agent.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/zhenghanlu/Development/SwarmDominant/agents/alpha.cpp",
-			"MU",
-			null
-		],
+		[ "/Users/zhenghanlu/Development/SwarmDominant/alpha.cpp", "MU", null ],
 		[ "/Users/zhenghanlu/Development/SwarmDominant/beta.cpp", "MU", null ],
+		[ "/Users/zhenghanlu/Development/SwarmDominant/delta.cpp", "MU", null ],
+		[ "/Users/zhenghanlu/Development/SwarmDominant/epsilon.cpp", "MU", null ],
 		[ "/Users/zhenghanlu/Development/SwarmDominant/gamma.cpp", "MU", null ],
 		[ "/Users/zhenghanlu/Development/SwarmDominant/main.cpp", "MU", null ],
 		[
