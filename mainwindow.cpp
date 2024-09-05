@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 #include <QProcess>
 #include <QDebug>
-#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

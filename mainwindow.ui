@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1944</width>
+    <width>1847</width>
     <height>1019</height>
    </rect>
   </property>
@@ -62,9 +62,9 @@
    <widget class="QWidget" name="verticalLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>370</x>
       <y>30</y>
-      <width>371</width>
+      <width>351</width>
       <height>901</height>
      </rect>
     </property>
@@ -136,9 +136,9 @@
    <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>770</x>
+      <x>730</x>
       <y>30</y>
-      <width>381</width>
+      <width>361</width>
       <height>901</height>
      </rect>
     </property>
@@ -225,7 +225,7 @@
      <rect>
       <x>0</x>
       <y>30</y>
-      <width>381</width>
+      <width>361</width>
       <height>901</height>
      </rect>
     </property>
@@ -297,9 +297,9 @@
    <widget class="QWidget" name="verticalLayoutWidget_5">
     <property name="geometry">
      <rect>
-      <x>1160</x>
+      <x>1100</x>
       <y>30</y>
-      <width>381</width>
+      <width>361</width>
       <height>901</height>
      </rect>
     </property>
@@ -371,9 +371,9 @@
    <widget class="QWidget" name="verticalLayoutWidget_6">
     <property name="geometry">
      <rect>
-      <x>1550</x>
+      <x>1470</x>
       <y>30</y>
-      <width>381</width>
+      <width>361</width>
       <height>901</height>
      </rect>
     </property>

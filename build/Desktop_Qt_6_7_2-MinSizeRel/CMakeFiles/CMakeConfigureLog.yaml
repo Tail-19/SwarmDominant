@@ -1,0 +1,398 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.5.0-45-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/3.29.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-dz0JsW"
+      binary: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-dz0JsW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-dz0JsW'
+        
+        Run Build Command(s): /home/alpha/Qt/Tools/Ninja/ninja -v cmTC_c4458
+        [1/2] /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -c /home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/'
+         /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c4458.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccScdkhs.s
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/'
+         /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccScdkhs.s
+        GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
+        COMPILER_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++  -v -Wl,-v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c4458   && :
+        Reading specs from /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++
+        COLLECT_LTO_WRAPPER=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COMPILER_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4458' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4458.'
+         /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4seXGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c4458 /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/alpha/anaconda3/envs/voxblox/lib -v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        collect2 version 11.2.0
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4seXGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c4458 /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/alpha/anaconda3/envs/voxblox/lib -v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        GNU ld (Anaconda binutils) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4458' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4458.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include/c++/11.2.0/backward;/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include;/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/include;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-dz0JsW']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/alpha/Qt/Tools/Ninja/ninja -v cmTC_c4458]
+        ignore line: [[1/2] /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -c /home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/']
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c4458.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccScdkhs.s]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/']
+        ignore line: [ /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccScdkhs.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
+        ignore line: [COMPILER_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++  -v -Wl -v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c4458   && :]
+        ignore line: [Reading specs from /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COMPILER_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4458' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4458.']
+        link line: [ /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4seXGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c4458 /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/alpha/anaconda3/envs/voxblox/lib -v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc4seXGP.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c4458] ==> ignore
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> obj [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/alpha/anaconda3/envs/voxblox/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> obj [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+          arg [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 11.2.0]
+        ignore line: [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/alpha/anaconda3/envs/voxblox/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4seXGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c4458 /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/alpha/anaconda3/envs/voxblox/lib -v CMakeFiles/cmTC_c4458.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        linker tool for 'CXX': /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+        collapse obj [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+        collapse obj [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc] ==> [/home/alpha/anaconda3/envs/voxblox/lib/gcc]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/lib64]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/alpha/anaconda3/envs/voxblox/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o;/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o;/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/alpha/anaconda3/envs/voxblox/lib/gcc/x86_64-conda-linux-gnu/11.2.0;/home/alpha/anaconda3/envs/voxblox/lib/gcc;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/lib64;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/lib64;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib64;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/lib;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/lib;/home/alpha/anaconda3/envs/voxblox/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (Anaconda binutils) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-PCXor4"
+      binary: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-PCXor4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-PCXor4'
+        
+        Run Build Command(s): /home/alpha/Qt/Tools/Ninja/ninja -v cmTC_8c77b
+        [1/2] /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_8c77b.dir/src.cxx.o -c /home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-PCXor4/src.cxx
+        [2/2] : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   CMakeFiles/cmTC_8c77b.dir/src.cxx.o -o cmTC_8c77b   && :
+        \x1b[31mFAILED: \x1b[0mcmTC_8c77b 
+        : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   CMakeFiles/cmTC_8c77b.dir/src.cxx.o -o cmTC_8c77b   && :
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_8c77b.dir/src.cxx.o: in function `main':
+        src.cxx:(.text+0x2d): undefined reference to `pthread_create'
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x39): undefined reference to `pthread_detach'
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x45): undefined reference to `pthread_cancel'
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x56): undefined reference to `pthread_join'
+        /home/alpha/anaconda3/envs/voxblox/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.cxx:(.text+0x6a): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-vY1vSQ"
+      binary: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-vY1vSQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-vY1vSQ'
+        
+        Run Build Command(s): /home/alpha/Qt/Tools/Ninja/ninja -v cmTC_2b3dd
+        [1/2] /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_2b3dd.dir/CheckForPthreads.cxx.o -c /home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-vY1vSQ/CheckForPthreads.cxx
+        [2/2] : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   CMakeFiles/cmTC_2b3dd.dir/CheckForPthreads.cxx.o -o cmTC_2b3dd  -pthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/home/alpha/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-uCVYOP"
+      binary: "/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-uCVYOP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/alpha/Qt/6.7.2/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-uCVYOP'
+        
+        Run Build Command(s): /home/alpha/Qt/Tools/Ninja/ninja -v cmTC_93eb2
+        [1/2] /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++ -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_93eb2.dir/src.cxx.o -c /home/alpha/Development/SwarmDominant/build/Desktop_Qt_6_7_2-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-uCVYOP/src.cxx
+        [2/2] : && /home/alpha/anaconda3/envs/voxblox/bin/x86_64-conda_cos7-linux-gnu-g++   CMakeFiles/cmTC_93eb2.dir/src.cxx.o -o cmTC_93eb2   && :
+        
+      exitCode: 0
+...
