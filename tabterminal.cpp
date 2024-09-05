@@ -28,7 +28,6 @@ TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
 void TabTerminal::readBashStandardOutput() {
     QByteArray _out = tab_process->readAllStandardOutput();
     if(!_out.isEmpty())   ui->tabBrowser->append(QString::fromLocal8Bit(_out));
-
 }
 
 void TabTerminal::readBashStandardError() {
