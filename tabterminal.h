@@ -35,7 +35,7 @@ private:
     QString start_line;
 
     Ui::TabTerminal *ui;
-    QProcess *tab_process;
+    QPointer<QProcess> tab_process;
 };
 
 #endif // TABTERMINAL_H

@@ -1,5 +1,7 @@
 #include "tabterminal.h"
 #include "ui_tabterminal.h"
+#include <QProcess>
+#include <QPointer>
 
 TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     : QWidget(parent)
@@ -10,6 +12,7 @@ TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     start_line = username + "@" + hostname + ":~$ ";
 
     ui->setupUi(this);
+
     tab_process = new QProcess;
     tab_process->start("bash");
     tab_process->waitForStarted();
@@ -17,7 +20,9 @@ TabTerminal::TabTerminal(QWidget *parent, QString username, QString hostname)
     connect(tab_process, SIGNAL(readyReadStandardOutput()), this, SLOT(readBashStandardOutput()));
     connect(tab_process, SIGNAL(readyReadStandardError()), this, SLOT(readBashStandardError()));
 
-    tab_process->write(QString("ssh -tt " + username + "@" + hostname).toLocal8Bit());
+    QString _ssh = "ssh -tt " + username + "@" + hostname + "\n";
+    tab_process->write(_ssh.toLocal8Bit());
+    ui->tabBrowser->append(start_line + _ssh);
 }
 
 void TabTerminal::readBashStandardOutput() {
@@ -59,4 +64,5 @@ QString TabTerminal::getUser() {
 TabTerminal::~TabTerminal()
 {
     delete ui;
+    delete tab_process;
 }

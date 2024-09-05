@@ -90,14 +90,14 @@ SwarmDominant_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
 	/Users/zhenghanlu/Development/SwarmDominant/CMakeLists.txt \
-	/Users/zhenghanlu/Development/SwarmDominant/agents/agent.cpp \
-	/Users/zhenghanlu/Development/SwarmDominant/agents/agent.h \
-	/Users/zhenghanlu/Development/SwarmDominant/agents/alpha.cpp \
+	/Users/zhenghanlu/Development/SwarmDominant/alpha.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/beta.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake \
 	/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/moc_predefs.h \
+	/Users/zhenghanlu/Development/SwarmDominant/delta.cpp \
+	/Users/zhenghanlu/Development/SwarmDominant/epsilon.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/gamma.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/main.cpp \
 	/Users/zhenghanlu/Development/SwarmDominant/mainwindow.cpp \

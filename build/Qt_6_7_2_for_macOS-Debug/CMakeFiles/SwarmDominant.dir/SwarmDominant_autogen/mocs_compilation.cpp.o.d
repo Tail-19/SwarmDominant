@@ -914,10 +914,10 @@ CMakeFiles/SwarmDominant.dir/SwarmDominant_autogen/mocs_compilation.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/QStandardItemModel \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QProcess \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qprocess.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/EWIEGA46WW/moc_tabterminal.cpp \
   /Users/zhenghanlu/Development/SwarmDominant/build/Qt_6_7_2_for_macOS-Debug/SwarmDominant_autogen/EWIEGA46WW/../../../../tabterminal.h \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/QProcess \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qprocess.h \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qiodevice.h
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QWidget

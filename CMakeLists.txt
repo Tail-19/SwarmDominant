@@ -27,13 +27,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         tabterminal.h  tabterminal.ui
-        gamma.cpp
-        beta.cpp
-        agents/alpha.cpp
-        agents/agent.h agents/agent.cpp
+        gamma.cpp   beta.cpp
         tabterminal.h tabterminal.cpp tabterminal.ui
-
-
+        alpha.cpp
+        delta.cpp
+        epsilon.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SwarmDominant APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
