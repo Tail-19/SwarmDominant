@@ -934,8 +934,20 @@ CMakeFiles/SwarmDominant.dir/beta.cpp.o: \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QCheckBox \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qcheckbox.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QFrame \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QComboBox \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qcombobox.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QFrame \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/zhenghanlu/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \

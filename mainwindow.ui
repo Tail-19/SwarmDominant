@@ -63,18 +63,36 @@
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>30</y>
+      <y>0</y>
       <width>371</width>
-      <height>901</height>
+      <height>931</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item alignment="Qt::AlignmentFlag::AlignHCenter">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Beta</string>
-       </property>
-      </widget>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Beta</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QComboBox" name="beta_comboBox">
+         <item>
+          <property name="text">
+           <string>beta</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>yuan</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QTextBrowser" name="betaTerminal">
@@ -137,18 +155,36 @@
     <property name="geometry">
      <rect>
       <x>770</x>
-      <y>30</y>
+      <y>0</y>
       <width>381</width>
-      <height>901</height>
+      <height>931</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item alignment="Qt::AlignmentFlag::AlignHCenter">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Gamma</string>
-       </property>
-      </widget>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Gamma</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QComboBox" name="gamma_comboBox">
+         <item>
+          <property name="text">
+           <string>gamma</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>yuan</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QTextBrowser" name="gammaTerminal">
@@ -224,18 +260,36 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>30</y>
+      <y>0</y>
       <width>381</width>
-      <height>901</height>
+      <height>931</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_1">
-     <item alignment="Qt::AlignmentFlag::AlignHCenter">
-      <widget class="QLabel" name="label_1">
-       <property name="text">
-        <string>Alpha</string>
-       </property>
-      </widget>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="label_1">
+         <property name="text">
+          <string>Alpha</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QComboBox" name="alpha_comboBox">
+         <item>
+          <property name="text">
+           <string>alpha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>yuan</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QTextBrowser" name="alphaTerminal">
@@ -298,18 +352,36 @@
     <property name="geometry">
      <rect>
       <x>1160</x>
-      <y>30</y>
+      <y>0</y>
       <width>381</width>
-      <height>901</height>
+      <height>931</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4">
-     <item alignment="Qt::AlignmentFlag::AlignHCenter">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>Delta</string>
-       </property>
-      </widget>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Delta</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QComboBox" name="delta_comboBox">
+         <item>
+          <property name="text">
+           <string>delta</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>yuan</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QTextBrowser" name="deltaTerminal">
@@ -372,18 +444,36 @@
     <property name="geometry">
      <rect>
       <x>1550</x>
-      <y>30</y>
+      <y>0</y>
       <width>381</width>
-      <height>901</height>
+      <height>931</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_5">
-     <item alignment="Qt::AlignmentFlag::AlignHCenter">
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>Epsilon</string>
-       </property>
-      </widget>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_13">
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Epsilon</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QComboBox" name="epsilon_comboBox">
+         <item>
+          <property name="text">
+           <string>epsilon</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>yuan</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QTextBrowser" name="epsilonTerminal">

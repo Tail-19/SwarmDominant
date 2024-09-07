@@ -23,7 +23,7 @@ void MainWindow::on_betaAdd_pushButton_clicked() {
 
     QHBoxLayout *horizontalLayout = new QHBoxLayout(_new_page);//新建布局
     horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));//为布局设置对象名
-    TabTerminal *_tab_ptr = new TabTerminal(this, "beta", "beta-sr");
+    TabTerminal *_tab_ptr = new TabTerminal(this, beta_username, "beta-sr");
     _new_page->setLayout(horizontalLayout);//在此Widget中添加该布局
     horizontalLayout->addWidget(_tab_ptr);
 
