@@ -60,5 +60,11 @@ private:
     int gamma_max_tab = 0;
     int delta_max_tab = 0;
     int epsilon_max_tab = 0;
+
+    QString alpha_username = "alpha";
+    QString beta_username= "beta";
+    QString gamma_username = "gamma";
+    QString delta_username = "delta";
+    QString epsilon_username = "epsilon";
 };
 #endif // MAINWINDOW_H

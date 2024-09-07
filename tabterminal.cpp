@@ -37,10 +37,16 @@ void TabTerminal::readBashStandardError() {
 }
 
 void TabTerminal::on_tabLineEdit_returnPressed() {
-    QString _str = ui->tabLineEdit->text();
+    QString _str_rev = ui->tabLineEdit->text();
+    QByteArray _str = _str_rev.toLocal8Bit() + '\n';
+
+    //work on ctrl-c
+    if (_str_rev == QString("cc")) {
+        _str = "\x03";
+    }
 
     ui->tabBrowser->append(start_line + _str);
-    tab_process->write(ui->tabLineEdit->text().toLocal8Bit() + '\n');
+    tab_process->write(_str);
 
     ui->tabLineEdit->clear();
 }
